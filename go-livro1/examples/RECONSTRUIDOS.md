@@ -16,7 +16,6 @@ Os capítulos mostram parte do código em pedaços, ou mostram um arquivo em um 
 - `capitulo-15/topico-10/projeto-1/assets/sql/001_pedidos.sql`
 - `capitulo-15/topico-10/projeto-1/assets/sql/002_valor.sql`
 - `capitulo-15/topico-10/projeto-1/embutidos.go`
-- `capitulo-15/topico-10/projeto-1/go.mod`
 - `capitulo-15/topico-10/projeto-1/nome_darwin.go`
 - `capitulo-15/topico-10/projeto-1/nome_linux.go`
 - `capitulo-15/topico-10/projeto-1/nome_outro.go`
@@ -47,8 +46,7 @@ Os capítulos mostram parte do código em pedaços, ou mostram um arquivo em um 
 
 ## Módulos de ilustração montados
 
-As ilustrações de projetos fictícios (`exemplo.com/...`) viraram módulos aninhados, cada um com o seu `go.mod`, e os arquivos foram movidos para a estrutura de pastas que o capítulo descreve (as legendas apontam para o novo caminho). Foi escrito, a partir do que o texto descreve, o que não aparece em bloco de código:
+As ilustrações de projetos fictícios (`exemplo.com/...`) viraram subpastas do módulo único de `examples` (há um só `go.mod`, na raiz), e os arquivos foram movidos para a estrutura de pastas que o capítulo descreve (as legendas apontam para o novo caminho). Foi escrito, a partir do que o texto descreve, o que não aparece em bloco de código:
 
 - capitulo-15/topico-8/projeto-2/models/pedido.go
 - capitulo-17/topico-8/projeto-1/interno/interno.go
-- go.mod de cada projeto-N (cpf, calc, ciclo, camadas, dominio, fm)

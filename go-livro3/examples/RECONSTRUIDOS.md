@@ -9,7 +9,7 @@ Os capítulos mostram parte do código em pedaços, ou mostram um arquivo em um 
 
 ## Módulos de ilustração montados
 
-As ilustrações de projetos fictícios (`exemplo.com/...`) viraram módulos aninhados, cada um com o seu `go.mod`, e os arquivos foram movidos para a estrutura de pastas que o capítulo descreve (as legendas apontam para o novo caminho). Foi escrito, a partir do que o texto descreve, o que não aparece em bloco de código:
+As ilustrações de projetos fictícios (`exemplo.com/...`) viraram subpastas do módulo único de `examples` (há um só `go.mod`, na raiz), e os arquivos foram movidos para a estrutura de pastas que o capítulo descreve (as legendas apontam para o novo caminho). Foi escrito, a partir do que o texto descreve, o que não aparece em bloco de código:
 
 - capitulo-12/topico-5 (agora capitulo-12/topico-10/projeto-1)/internal/longo/embedder.go e extrator.go (Embedder, Hash, Fato, Extrair)
 - capitulo-7/topico-7/projeto-1/internal/janela/janela.go (tipos e construtores das janelas ingênua, exata e de baldes, com os métodos do capítulo)

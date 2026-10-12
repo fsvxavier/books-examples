@@ -8,14 +8,14 @@ Verificações: 103.
 |---|---|---|
 | passou | 102 | terminou sem erro |
 | passou, com falha documentada | 1 | o capítulo ensina um defeito de propósito (erro de compilação, `panic`, deadlock, teste que falha) e a mensagem real aparece no texto |
-| fora do módulo | 0 | as ilustrações de outros módulos viraram módulos de verdade (ver abaixo) |
+| fora do módulo | 0 | as ilustrações de outros módulos viraram pacotes de verdade dentro do módulo único de `examples` (ver abaixo) |
 | falhou | 0 | |
 
 ## Falhas documentadas
 
 | Diretório | Etapa | Primeira linha da saída |
 |---|---|---|
-| examples/capitulo-2/topico-3/consumidor | vet | `package exemplos/livro4/capitulo-2/topico-3/consumidor` |
+| examples/capitulo-2/topico-3/consumidor | vet | `package github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-3/consumidor` |
 
 
 ## Observações

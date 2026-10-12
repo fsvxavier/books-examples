@@ -8,7 +8,7 @@ Verificações: 67.
 |---|---|---|
 | passou | 51 | terminou sem erro |
 | passou, com falha documentada | 3 | o capítulo ensina um defeito de propósito (erro de compilação, `panic`, deadlock, teste que falha) e a mensagem real aparece no texto |
-| fora do módulo | 0 | as ilustrações de outros módulos viraram módulos de verdade (ver abaixo) |
+| fora do módulo | 0 | as ilustrações de outros módulos viraram pacotes de verdade dentro do módulo único de `examples` (ver abaixo) |
 | falhou | 0 | |
 
 ## Falhas documentadas
@@ -19,9 +19,9 @@ Verificações: 67.
 | examples/capitulo-11/topico-8/arquivo-1 | run | `c02b42b93/scratchpad/rc3/3/capitulo-11/topico-8/arquivo-1/arquivo-1.go:23 +0x10b` |
 | examples/capitulo-9/topico-15 | run | `uso: go run . CAMINHO/libonnxruntime.so soma.onnx` |
 
-## Módulos aninhados (go.mod próprio)
+## Projetos em subpastas
 
-Cada um foi verificado dentro da própria pasta com `go vet ./...` e `go test ./...`.
+Antes eram módulos com `go.mod` próprio. Agora existe um único `go.mod`, na raiz de `examples`, e cada projeto é um conjunto de pacotes dentro dele; a verificação roda a partir da raiz.
 
 - `examples/capitulo-1/topico-11/projeto-1`
 - `examples/capitulo-11/topico-8/projeto-1`

@@ -8,7 +8,7 @@ Verificações: 259.
 |---|---|---|
 | passou | 244 | terminou sem erro |
 | passou, com falha documentada | 7 | o capítulo ensina um defeito de propósito (erro de compilação, `panic`, deadlock, teste que falha) e a mensagem real aparece no texto |
-| fora do módulo | 0 | as ilustrações de outros módulos viraram módulos de verdade (ver abaixo) |
+| fora do módulo | 0 | as ilustrações de outros módulos viraram pacotes de verdade dentro do módulo único de `examples` (ver abaixo) |
 | falhou | 0 | |
 
 ## Falhas documentadas
@@ -23,9 +23,9 @@ Verificações: 259.
 | examples/capitulo-23/topico-6 | vet | `arquivo-1.go:29:56: 2006-02-01 should be 2006-01-02` |
 | examples/capitulo-4/topico-11 | run | `1. variável de pacote inicializada` |
 
-## Módulos aninhados (go.mod próprio)
+## Projetos em subpastas
 
-Cada um foi verificado dentro da própria pasta com `go vet ./...` e `go test ./...`.
+Antes eram módulos com `go.mod` próprio. Agora existe um único `go.mod`, na raiz de `examples`, e cada projeto é um conjunto de pacotes dentro dele; a verificação roda a partir da raiz.
 
 - `examples/capitulo-1/topico-7/projeto-1`
 - `examples/capitulo-15/topico-10/projeto-1`
