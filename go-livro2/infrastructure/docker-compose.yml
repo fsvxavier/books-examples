@@ -1,0 +1,14 @@
+# O Livro 2 não precisa de banco nem de fila: os exemplos rodam só com a toolchain Go.
+# O único uso de Docker é o capítulo 20 (cgo), que roda binários Linux numa imagem
+# Alpine (libc musl) para mostrar a diferença entre glibc e musl.
+#
+#   BINARIOS=/caminho/dos/binarios docker compose --profile cgo run --rm musl /app/app-cgo
+# BINARIOS é a pasta onde você rodou `go build -o app-cgo .` (padrão: a pasta atual).
+name: golivro2
+services:
+  musl:
+    image: alpine:3
+    profiles: ["cgo"]
+    volumes:
+      - ${BINARIOS:-.}:/app:ro
+    working_dir: /app

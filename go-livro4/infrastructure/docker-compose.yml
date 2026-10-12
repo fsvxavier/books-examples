@@ -1,0 +1,31 @@
+# Serviços do Livro 4 (encurtador de links): PostgreSQL para o repositório e
+# Valkey (protocolo do Redis) para os Streams do capítulo de eventos.
+name: golivro4
+services:
+  postgres:
+    image: postgres:18-alpine
+    container_name: golivro-pg
+    environment:
+      POSTGRES_USER: livro
+      POSTGRES_PASSWORD: livro
+      POSTGRES_DB: livro
+    ports:
+      - "127.0.0.1:55432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U livro -d livro"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  valkey:
+    image: valkey/valkey:latest
+    container_name: golivro-valkey
+    ports:
+      - "127.0.0.1:56390:6379"
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped

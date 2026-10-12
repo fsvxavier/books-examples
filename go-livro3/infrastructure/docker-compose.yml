@@ -1,0 +1,63 @@
+# Serviços do Livro 3 (RAG, feature stores, gateway de IA, memória de agentes).
+name: golivro3
+services:
+  pgvector:
+    image: pgvector/pgvector:pg18
+    container_name: golivro-pgvector
+    environment:
+      POSTGRES_USER: livro
+      POSTGRES_PASSWORD: livro
+      POSTGRES_DB: livro
+    ports:
+      - "127.0.0.1:55433:5432"
+    volumes:
+      - ./initdb:/docker-entrypoint-initdb.d:ro
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U livro -d livro"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  valkey:
+    image: valkey/valkey:latest
+    container_name: golivro-valkey
+    ports:
+      - "127.0.0.1:56390:6379"
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  # Valkey com os módulos de busca vetorial (search), JSON e Bloom.
+  valkey-bundle:
+    image: valkey/valkey-bundle:latest
+    container_name: golivro-valkey-bundle
+    ports:
+      - "127.0.0.1:56391:6379"
+    healthcheck:
+      test: ["CMD", "valkey-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 10
+    restart: unless-stopped
+
+  # Opcional: os capítulos 1 e 6 usam o Ollama (gemma3:1b e embeddinggemma:300m).
+  # Também funciona o Ollama instalado no host. Suba com:
+  #   docker compose --profile ollama up -d
+  #   docker exec golivro-ollama ollama pull gemma3:1b
+  #   docker exec golivro-ollama ollama pull embeddinggemma:300m
+  ollama:
+    image: ollama/ollama:latest
+    container_name: golivro-ollama
+    profiles: ["ollama"]
+    ports:
+      - "127.0.0.1:11434:11434"
+    volumes:
+      - ollama:/root/.ollama
+    restart: unless-stopped
+
+volumes:
+  ollama:

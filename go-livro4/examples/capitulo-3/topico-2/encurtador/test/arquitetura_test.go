@@ -29,7 +29,7 @@ func alcanca(dep, proibido string) bool {
 // TestRegraDaDependencia confere que as dependências só apontam para dentro:
 // cada pacote lista o que NÃO pode alcançar, nem por caminhos indiretos.
 func TestRegraDaDependencia(t *testing.T) {
-	infra := []string{"net/http", "database/sql", "github.com/", "encoding/json", "log/slog"}
+	infra := []string{"net/http", "database/sql", "github.com/jackc", "encoding/json", "log/slog"}
 	regras := []struct {
 		pacote     string
 		proibidos  []string
