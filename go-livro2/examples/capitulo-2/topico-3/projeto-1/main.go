@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	"exemplos/livro2/capitulo-2/topico-3/projeto-1/infra"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-3/projeto-1/infra"
 )
 
 func escolher(ambiente string) infra.Fabrica {

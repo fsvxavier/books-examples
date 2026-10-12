@@ -6,7 +6,7 @@ import (
 	"math"
 	"time"
 
-	"exemplo.com/features/internal/janela"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-7/topico-7/projeto-1/internal/janela"
 )
 
 // Janelas são as três durações usadas pelas features de comportamento.

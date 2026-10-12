@@ -10,9 +10,9 @@ import (
 	"sync"
 	"time"
 
-	"exemplo.com/agentes/internal/caixa"
-	"exemplo.com/agentes/internal/equipe"
-	"exemplo.com/agentes/internal/modelo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/caixa"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/equipe"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/modelo"
 )
 
 func main() {

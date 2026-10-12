@@ -4,7 +4,7 @@ import (
 	"errors"
 	"fmt"
 
-	"exemplos/livro2/capitulo-2/topico-4/projeto-2/infra"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-4/projeto-2/infra"
 )
 
 var ErrAmbiente = errors.New("ambiente invalido")

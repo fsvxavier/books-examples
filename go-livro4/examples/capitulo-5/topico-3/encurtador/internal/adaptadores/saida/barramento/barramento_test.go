@@ -10,8 +10,8 @@ import (
 	"testing"
 	"time"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/adaptadores/saida/barramento"
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/adaptadores/saida/barramento"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 func evento(t *testing.T) dominio.Evento {

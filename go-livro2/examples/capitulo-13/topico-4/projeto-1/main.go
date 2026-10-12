@@ -1,6 +1,6 @@
 package main
 
-import "exemplos/livro2/capitulo-13/topico-4/projeto-1/molde"
+import "github.com/fsvxavier/books-examples/go-livro-2/capitulo-13/topico-4/projeto-1/molde"
 
 type SemExecutar struct{ molde.Padrao }
 

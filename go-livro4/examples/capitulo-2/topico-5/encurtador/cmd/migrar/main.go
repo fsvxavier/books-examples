@@ -10,7 +10,7 @@ import (
 	"os"
 	"os/signal"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/migracao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/migracao"
 )
 
 func main() {

@@ -7,8 +7,8 @@ import (
 	"sync"
 	"time"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 // registro é o estado de um link em tipos simples. O armazenamento guarda isto

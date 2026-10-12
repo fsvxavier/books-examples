@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"log/slog"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 // Manipulador devolve a função que escreve um registro por evento, no nível

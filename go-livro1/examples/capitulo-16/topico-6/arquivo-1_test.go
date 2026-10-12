@@ -3,7 +3,7 @@ package calc_test
 import (
 	"fmt"
 
-	"exemplos/livro1/capitulo-16/topico-2/projeto-1"
+	"github.com/fsvxavier/books-examples/go-livro-1/capitulo-16/topico-2/projeto-1"
 )
 
 func ExampleSlug() {

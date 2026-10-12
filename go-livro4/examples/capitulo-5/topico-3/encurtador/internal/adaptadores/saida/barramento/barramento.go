@@ -8,8 +8,8 @@ import (
 	"log/slog"
 	"sync"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 // Manipulador reage a um evento. Um erro é registrado e não interrompe os

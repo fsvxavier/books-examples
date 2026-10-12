@@ -7,7 +7,7 @@ import (
 	"testing"
 )
 
-const modulo = "exemplos/livro4/capitulo-3/topico-2/encurtador/"
+const modulo = "github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/"
 
 // dependencias devolve TODAS as dependências, diretas e indiretas, de um pacote
 // do módulo. Olhar só os imports diretos deixaria passar um atalho como

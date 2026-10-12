@@ -8,7 +8,7 @@ import (
 	"sync"
 	"testing"
 
-	"exemplo.com/agentes/internal/grafo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/grafo"
 )
 
 // Defeito clássico: três pesquisadores em paralelo gravando no mesmo mapa e

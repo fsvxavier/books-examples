@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"os"
 
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/app"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/app"
 )
 
 func main() {

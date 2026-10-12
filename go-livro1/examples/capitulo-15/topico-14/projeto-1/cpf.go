@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"exemplo.com/cpf/internal/digitos"
+	"github.com/fsvxavier/books-examples/go-livro-1/capitulo-15/topico-14/projeto-1/internal/digitos"
 )
 
 // ErrInvalido indica um CPF que não passa na validação.

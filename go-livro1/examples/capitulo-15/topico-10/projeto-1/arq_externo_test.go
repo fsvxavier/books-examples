@@ -6,7 +6,7 @@ import (
 	"strings"
 	"testing"
 
-	"exemplo.com/arq"
+	"github.com/fsvxavier/books-examples/go-livro-1/capitulo-15/topico-10/projeto-1"
 )
 
 func TestEmail(t *testing.T) {

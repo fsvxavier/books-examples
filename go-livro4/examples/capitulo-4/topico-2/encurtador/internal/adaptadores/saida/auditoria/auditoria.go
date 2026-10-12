@@ -7,7 +7,7 @@ import (
 	"context"
 	"log/slog"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 // Slog escreve um registro por evento, no nível Info, com o campo evento.

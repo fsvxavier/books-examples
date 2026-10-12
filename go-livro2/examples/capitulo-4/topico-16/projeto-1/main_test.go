@@ -7,9 +7,9 @@ import (
 	"sync"
 	"testing"
 
-	"exemplos/livro2/capitulo-4/topico-14/projeto-1"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/cobranca"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/config"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-14/projeto-1"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/cobranca"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/config"
 )
 
 func env(m map[string]string) func(string) string {

@@ -7,7 +7,7 @@ import (
 	"strconv"
 	"time"
 
-	"exemplo.com/features/internal/feature"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-7/topico-7/projeto-1/internal/feature"
 )
 
 // exportar grava em CSV as features de comportamento de cada transação dos

@@ -11,9 +11,9 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/postgres"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/repositoriotest"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/postgres"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/repositoriotest"
 )
 
 // esquemaProprio cria um esquema (schema) novo no banco de teste e devolve o

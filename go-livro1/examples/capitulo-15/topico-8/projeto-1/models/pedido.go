@@ -1,7 +1,7 @@
 // models/pedido.go
 package models
 
-import "exemplo.com/ciclo/services"
+import "github.com/fsvxavier/books-examples/go-livro-1/capitulo-15/topico-8/projeto-1/services"
 
 type Pedido struct {
 	ID    int

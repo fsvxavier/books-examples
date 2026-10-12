@@ -3,8 +3,8 @@ package main
 import (
 	"fmt"
 
-	"exemplos/livro2/capitulo-4/topico-12/projeto-1/pagamento"
-	_ "exemplos/livro2/capitulo-4/topico-12/projeto-1/pix"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/pagamento"
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/pix"
 )
 
 type outroPix struct{}

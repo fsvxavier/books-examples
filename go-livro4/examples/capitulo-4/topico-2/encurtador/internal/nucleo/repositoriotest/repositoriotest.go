@@ -9,8 +9,8 @@ import (
 	"testing"
 	"time"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 // Criado é o instante usado nos links do teste. O contrato exige só precisão

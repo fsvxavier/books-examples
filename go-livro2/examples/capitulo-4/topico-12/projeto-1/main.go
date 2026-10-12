@@ -3,10 +3,10 @@ package main
 import (
 	"fmt"
 
-	_ "exemplos/livro2/capitulo-4/topico-12/projeto-1/boleto"
-	_ "exemplos/livro2/capitulo-4/topico-12/projeto-1/cartao"
-	"exemplos/livro2/capitulo-4/topico-12/projeto-1/pagamento"
-	_ "exemplos/livro2/capitulo-4/topico-12/projeto-1/pix"
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/boleto"
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/cartao"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/pagamento"
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-12/projeto-1/pix"
 )
 
 func main() {

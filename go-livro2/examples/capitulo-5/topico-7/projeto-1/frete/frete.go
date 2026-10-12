@@ -12,7 +12,7 @@ import (
 	"sync"
 	"time"
 
-	"exemplos/livro2/capitulo-5/topico-7/projeto-1/legado"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-5/topico-7/projeto-1/legado"
 )
 
 type Pedido struct {

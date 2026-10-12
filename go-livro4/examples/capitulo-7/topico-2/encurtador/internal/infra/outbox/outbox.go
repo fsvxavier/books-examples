@@ -15,8 +15,8 @@ import (
 	"github.com/jackc/pgx/v5/pgconn"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-7/topico-2/encurtador/internal/infra/mensageria"
-	"exemplos/livro4/capitulo-7/topico-2/encurtador/internal/mensagens"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-7/topico-2/encurtador/internal/infra/mensageria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-7/topico-2/encurtador/internal/mensagens"
 )
 
 // Executor é o que Gravar precisa: executar um comando. Tanto uma transação

@@ -10,7 +10,7 @@ import (
 
 	"github.com/valkey-io/valkey-go"
 
-	"exemplo.com/memoria/internal/janela"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-12/topico-10/projeto-1/internal/janela"
 )
 
 // anexar faz, de forma atômica no servidor: RPUSH, LTRIM e EXPIRE.

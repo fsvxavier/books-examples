@@ -6,7 +6,7 @@ import (
 	"log/slog"
 	"net/http"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/contrato"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/contrato"
 )
 
 // JSON escreve v como corpo JSON com o status dado.

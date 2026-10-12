@@ -11,7 +11,7 @@ import (
 	"net/http"
 	"strings"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/contrato"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/contrato"
 )
 
 // Cliente fala com o servidor de links curtos pela API HTTP.

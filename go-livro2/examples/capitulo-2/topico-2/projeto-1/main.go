@@ -5,9 +5,9 @@ import (
 	"errors"
 	"fmt"
 
-	_ "exemplos/livro2/capitulo-2/topico-2/projeto-1/cartao" // o "_" so existe para o init() registrar o cartao
-	_ "exemplos/livro2/capitulo-2/topico-2/projeto-1/pix"
-	"exemplos/livro2/capitulo-2/topico-2/projeto-1/proc"
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-2/projeto-1/cartao" // o "_" so existe para o init() registrar o cartao
+	_ "github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-2/projeto-1/pix"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-2/projeto-1/proc"
 )
 
 func main() {

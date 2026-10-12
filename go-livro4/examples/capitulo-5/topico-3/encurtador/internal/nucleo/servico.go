@@ -8,7 +8,7 @@ import (
 	"fmt"
 	"time"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 // ErrSemCodigoLivre indica que todas as tentativas de sortear um código caíram

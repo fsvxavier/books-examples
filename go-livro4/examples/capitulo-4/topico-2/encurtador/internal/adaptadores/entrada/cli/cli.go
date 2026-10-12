@@ -12,8 +12,8 @@ import (
 	"os"
 	"strings"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 const uso = `uso: enc <comando> [argumentos]

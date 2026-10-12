@@ -3,7 +3,7 @@ package main
 import (
 	"fmt"
 
-	nativo "exemplos/livro2/capitulo-20/topico-8/projeto-1"
+	nativo "github.com/fsvxavier/books-examples/go-livro-2/capitulo-20/topico-8/projeto-1"
 )
 
 func main() {

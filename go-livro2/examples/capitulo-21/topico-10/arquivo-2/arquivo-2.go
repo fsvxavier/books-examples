@@ -6,7 +6,7 @@ import (
 	"sync"
 	"time"
 
-	logs "exemplos/livro2/capitulo-21/topico-4"
+	logs "github.com/fsvxavier/books-examples/go-livro-2/capitulo-21/topico-4"
 )
 
 func p99(h *metrics.Float64Histogram) float64 {

@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/exemplo/calc/internal/preco"
+	"github.com/fsvxavier/books-examples/go-livro-1/capitulo-1/topico-7/projeto-1/internal/preco"
 )
 
 func main() {

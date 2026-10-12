@@ -12,8 +12,8 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/dominio"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/infra/resposta"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/infra/resposta"
 )
 
 // Publicador é o que esta fatia exige de quem entrega eventos.

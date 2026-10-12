@@ -7,7 +7,7 @@ import (
 	"runtime/pprof"
 	"sync"
 
-	logs "exemplos/livro2/capitulo-21/topico-4"
+	logs "github.com/fsvxavier/books-examples/go-livro-2/capitulo-21/topico-4"
 )
 
 // atender gasta CPU proporcional ao tamanho do lote do cliente.

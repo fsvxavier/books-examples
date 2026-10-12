@@ -11,9 +11,9 @@ import (
 	"strings"
 	"time"
 
-	"exemplo.com/agentes/internal/equipe"
-	"exemplo.com/agentes/internal/grafo"
-	"exemplo.com/agentes/internal/modelo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/equipe"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/grafo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/modelo"
 )
 
 func main() {

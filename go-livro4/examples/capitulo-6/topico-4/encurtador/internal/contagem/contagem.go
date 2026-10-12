@@ -7,7 +7,7 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/dominio"
 )
 
 // Manipulador devolve a reação que soma um ao total do código, em uma única

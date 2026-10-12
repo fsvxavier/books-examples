@@ -1,4 +1,4 @@
-module exemplos/livro1
+module github.com/fsvxavier/books-examples/go-livro-1
 
 go 1.27.1
 

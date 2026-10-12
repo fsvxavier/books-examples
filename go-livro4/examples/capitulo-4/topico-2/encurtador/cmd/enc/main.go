@@ -11,8 +11,8 @@ import (
 	"os"
 	"os/signal"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/entrada/cli"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/app"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/entrada/cli"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/app"
 )
 
 func main() {

@@ -7,7 +7,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"exemplo.com/guarda/internal/achado"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-5/topico-9/projeto-1/internal/achado"
 )
 
 // Estado é o que as etapas compartilham: o fonte, que as etapas podem normalizar.

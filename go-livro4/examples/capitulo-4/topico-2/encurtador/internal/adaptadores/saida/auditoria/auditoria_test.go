@@ -8,9 +8,9 @@ import (
 	"testing"
 	"time"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/auditoria"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/auditoria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 // Garantias de compilação: os dois tipos satisfazem a porta.

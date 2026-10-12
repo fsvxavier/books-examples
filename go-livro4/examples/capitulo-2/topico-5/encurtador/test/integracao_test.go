@@ -11,9 +11,9 @@ import (
 	"strings"
 	"testing"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/app"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/armazem"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/migracao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/app"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/armazem"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/migracao"
 )
 
 // TestMigrarContraServidorReal sobe o servidor de verdade, importa uma lista

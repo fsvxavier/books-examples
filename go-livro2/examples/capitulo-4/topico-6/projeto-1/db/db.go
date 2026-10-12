@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"exemplos/livro2/capitulo-4/topico-6/projeto-1/log"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-6/projeto-1/log"
 )
 
 var Pool = abrirPool()

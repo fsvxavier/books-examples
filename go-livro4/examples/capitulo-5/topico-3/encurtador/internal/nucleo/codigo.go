@@ -3,7 +3,7 @@ package nucleo
 import (
 	"crypto/rand"
 
-	"exemplos/livro4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-5/topico-3/encurtador/internal/nucleo/dominio"
 )
 
 // CodigoAleatorio é o Gerador de produção. O alfabeto tem 32 símbolos e 256 é

@@ -17,12 +17,12 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/adaptadores/memoria"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/adaptadores/postgres"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/adaptadores/web"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/aplicacao"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/config"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/versao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/adaptadores/memoria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/adaptadores/postgres"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/adaptadores/web"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/aplicacao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/config"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/versao"
 )
 
 // NovoHandler liga as camadas: o repositório recebido entra no serviço, e o

@@ -7,7 +7,7 @@ import (
 	"go/scanner"
 	"go/token"
 
-	"exemplo.com/guarda/internal/achado"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-5/topico-9/projeto-1/internal/achado"
 )
 
 // EtapaSintaxe recusa fonte que não é Go válido e normaliza o que é, com o

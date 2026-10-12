@@ -6,7 +6,7 @@ import (
 	"testing"
 	"time"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/armazem"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/armazem"
 )
 
 func TestSalvarEBuscar(t *testing.T) {

@@ -17,13 +17,13 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/entrada/web"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/auditoria"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/memoria"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/postgres"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/config"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo"
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/versao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/entrada/web"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/auditoria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/memoria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/adaptadores/saida/postgres"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/config"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/versao"
 )
 
 // NovoNucleo liga o hexágono às suas portas de saída: o repositório recebido,

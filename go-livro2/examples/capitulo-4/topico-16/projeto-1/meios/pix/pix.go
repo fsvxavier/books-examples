@@ -4,7 +4,7 @@ package pix
 import (
 	"fmt"
 
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/cobranca"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/cobranca"
 )
 
 type meio struct{}

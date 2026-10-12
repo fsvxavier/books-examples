@@ -5,11 +5,11 @@ import (
 	"io"
 	"os"
 
-	"exemplos/livro2/capitulo-4/topico-14/projeto-1"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/cobranca"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/config"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/meios/cartao"
-	"exemplos/livro2/capitulo-4/topico-16/projeto-1/meios/pix"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-14/projeto-1"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/cobranca"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/config"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/meios/cartao"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-16/projeto-1/meios/pix"
 )
 
 // montar e a raiz de composicao: o unico lugar que conhece todas as pecas.

@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"time"
 
-	"exemplos/livro2/capitulo-5/topico-7/projeto-1/frete"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-5/topico-7/projeto-1/frete"
 )
 
 func imprimir(ofertas []frete.Oferta, err error) {

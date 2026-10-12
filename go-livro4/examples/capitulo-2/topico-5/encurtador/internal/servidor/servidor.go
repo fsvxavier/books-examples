@@ -8,8 +8,8 @@ import (
 	"strings"
 	"time"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/armazem"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/contrato"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/armazem"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/contrato"
 )
 
 const limiteCorpo = 4 << 10

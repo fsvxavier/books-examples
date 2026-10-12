@@ -10,7 +10,7 @@ import (
 	"fmt"
 	"time"
 
-	"exemplos/livro4/capitulo-7/topico-2/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-7/topico-2/encurtador/internal/dominio"
 )
 
 // Os tópicos têm o tipo e a versão no nome: uma mudança incompatível vira um

@@ -9,7 +9,7 @@ import (
 	"github.com/ThreeDotsLabs/watermill/message"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-7/topico-2/encurtador/internal/mensagens"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-7/topico-2/encurtador/internal/mensagens"
 )
 
 // Consumidor identifica esta fatia na tabela processadas: cada consumidor tem

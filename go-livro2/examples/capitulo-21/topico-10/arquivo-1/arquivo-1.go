@@ -5,7 +5,7 @@ import (
 	"runtime"
 	"time"
 
-	logs "exemplos/livro2/capitulo-21/topico-4"
+	logs "github.com/fsvxavier/books-examples/go-livro-2/capitulo-21/topico-4"
 )
 
 type no struct {

@@ -14,10 +14,10 @@ import (
 	"syscall"
 	"time"
 
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/armazem"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/config"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/servidor"
-	"exemplos/livro4/capitulo-2/topico-5/encurtador/internal/versao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/armazem"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/config"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/servidor"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-2/topico-5/encurtador/internal/versao"
 )
 
 // Executar é o programa de verdade. Tudo que vem de fora (contexto,

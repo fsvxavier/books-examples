@@ -5,8 +5,8 @@ package main
 import (
 	"golang.org/x/tools/go/analysis/multichecker"
 
-	"exemplo.com/guarda/internal/analisadores/errodescartado"
-	"exemplo.com/guarda/internal/analisadores/semctx"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-5/topico-9/projeto-1/internal/analisadores/errodescartado"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-5/topico-9/projeto-1/internal/analisadores/semctx"
 )
 
 func main() {

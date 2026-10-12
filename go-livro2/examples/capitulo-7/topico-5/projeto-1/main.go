@@ -7,7 +7,7 @@ import (
 	"log/slog"
 	"os"
 
-	"exemplos/livro2/capitulo-7/topico-5/projeto-1/subsistema"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-7/topico-5/projeto-1/subsistema"
 )
 
 func main() {

@@ -16,7 +16,7 @@ import (
 	"github.com/jackc/pgx/v5"
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/infra/banco"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/infra/banco"
 )
 
 // DSNIsolado cria um esquema novo e devolve o endereço do banco já apontando

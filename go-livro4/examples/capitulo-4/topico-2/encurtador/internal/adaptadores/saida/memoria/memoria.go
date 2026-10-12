@@ -6,7 +6,7 @@ import (
 	"context"
 	"sync"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 // Repositorio guarda os links em memória e é seguro para uso concorrente.

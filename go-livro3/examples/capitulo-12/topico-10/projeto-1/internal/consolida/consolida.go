@@ -8,9 +8,9 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"exemplo.com/memoria/internal/curto"
-	"exemplo.com/memoria/internal/janela"
-	"exemplo.com/memoria/internal/longo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-12/topico-10/projeto-1/internal/curto"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-12/topico-10/projeto-1/internal/janela"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-12/topico-10/projeto-1/internal/longo"
 )
 
 // Sessao identifica uma conversa terminada e de quem ela é.

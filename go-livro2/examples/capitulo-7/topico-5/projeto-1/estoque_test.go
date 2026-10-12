@@ -9,7 +9,7 @@ import (
 	"sync/atomic"
 	"testing"
 
-	"exemplos/livro2/capitulo-7/topico-5/projeto-1/subsistema"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-7/topico-5/projeto-1/subsistema"
 )
 
 // diario registra a ordem de TODAS as chamadas aos servicos falsos.

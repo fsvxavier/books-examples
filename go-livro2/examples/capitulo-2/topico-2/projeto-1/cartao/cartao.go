@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"exemplos/livro2/capitulo-2/topico-2/projeto-1/proc"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-2/topico-2/projeto-1/proc"
 )
 
 type processador struct{ parcelas int }

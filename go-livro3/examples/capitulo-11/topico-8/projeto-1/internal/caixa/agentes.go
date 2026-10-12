@@ -6,7 +6,7 @@ import (
 	"strings"
 	"sync"
 
-	"exemplo.com/agentes/internal/modelo"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-11/topico-8/projeto-1/internal/modelo"
 )
 
 // Pesquisador responde a "tema" com "fatos".

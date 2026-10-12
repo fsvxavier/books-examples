@@ -3,7 +3,7 @@ package criar
 import (
 	"crypto/rand"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/dominio"
 )
 
 // CodigoAleatorio é o gerador de produção. O alfabeto tem 32 símbolos e 256 é

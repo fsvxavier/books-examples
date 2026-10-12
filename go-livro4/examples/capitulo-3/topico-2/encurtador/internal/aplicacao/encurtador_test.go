@@ -6,8 +6,8 @@ import (
 	"testing"
 	"time"
 
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/aplicacao"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/aplicacao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/dominio"
 )
 
 var instante = time.Date(2026, time.October, 5, 9, 0, 0, 0, time.UTC)

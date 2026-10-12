@@ -7,7 +7,7 @@ import (
 	"fmt"
 	"math"
 
-	"exemplos/livro2/capitulo-5/topico-6/projeto-1/sdk"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-5/topico-6/projeto-1/sdk"
 )
 
 var (

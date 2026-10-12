@@ -7,7 +7,7 @@ import (
 	"hash/fnv"
 	"math"
 
-	"exemplo.com/rag/internal/texto"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-1/topico-11/projeto-1/internal/texto"
 )
 
 // Embedder transforma textos em vetores de tamanho fixo. Em produção, é uma

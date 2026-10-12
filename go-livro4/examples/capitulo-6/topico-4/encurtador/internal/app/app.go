@@ -17,15 +17,15 @@ import (
 
 	"github.com/jackc/pgx/v5/pgxpool"
 
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/auditoria"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/config"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/consultar"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/contagem"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/criar"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/infra/banco"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/infra/barramento"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/seguir"
-	"exemplos/livro4/capitulo-6/topico-4/encurtador/internal/versao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/auditoria"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/config"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/consultar"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/contagem"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/criar"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/infra/banco"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/infra/barramento"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/seguir"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-6/topico-4/encurtador/internal/versao"
 )
 
 // NovoHandler liga as três fatias, o barramento e a contagem de acessos sobre

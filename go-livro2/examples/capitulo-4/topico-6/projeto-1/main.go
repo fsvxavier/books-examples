@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"exemplos/livro2/capitulo-4/topico-6/projeto-1/db"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-6/projeto-1/db"
 )
 
 var _ = db.Pool

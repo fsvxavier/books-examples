@@ -4,7 +4,7 @@ import (
 	"context"
 	"time"
 
-	"exemplos/livro4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-4/topico-2/encurtador/internal/nucleo/dominio"
 )
 
 // Repositorio é uma porta secundária (de saída): o que a aplicação exige do

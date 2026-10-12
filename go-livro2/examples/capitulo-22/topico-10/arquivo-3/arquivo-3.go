@@ -9,7 +9,7 @@ import (
 	"net/http/pprof"
 	"strconv"
 
-	"exemplos/livro2/capitulo-22/topico-10/arquivo-2"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-22/topico-10/arquivo-2"
 )
 
 type entrada struct {

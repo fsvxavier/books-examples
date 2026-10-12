@@ -5,7 +5,7 @@ import (
 	"fmt"
 	"os"
 
-	"exemplo.com/cpf"
+	"github.com/fsvxavier/books-examples/go-livro-1/capitulo-15/topico-14/projeto-1"
 )
 
 func main() {

@@ -4,7 +4,7 @@ import (
 "strings"
 "fmt"
 "os"
-"exemplo.com/fm/interno"
+"github.com/fsvxavier/books-examples/go-livro-1/capitulo-17/topico-8/projeto-1/interno"
 )
 
 func F( x int,y int ) string{

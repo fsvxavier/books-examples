@@ -3,7 +3,7 @@ package log
 import (
 	"fmt"
 
-	"exemplos/livro2/capitulo-4/topico-6/projeto-1/cfg"
+	"github.com/fsvxavier/books-examples/go-livro-2/capitulo-4/topico-6/projeto-1/cfg"
 )
 
 var Nivel = definirNivel()

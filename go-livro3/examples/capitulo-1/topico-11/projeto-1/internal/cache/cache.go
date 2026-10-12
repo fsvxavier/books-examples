@@ -14,8 +14,8 @@ import (
 
 	"github.com/valkey-io/valkey-go"
 
-	"exemplo.com/rag/internal/embed"
-	"exemplo.com/rag/internal/texto"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-1/topico-11/projeto-1/internal/embed"
+	"github.com/fsvxavier/books-examples/go-livro-3/capitulo-1/topico-11/projeto-1/internal/texto"
 )
 
 // Entrada é uma resposta guardada.

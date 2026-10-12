@@ -10,9 +10,9 @@ import (
 	"net/http"
 	"strings"
 
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/aplicacao"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/contrato"
-	"exemplos/livro4/capitulo-3/topico-2/encurtador/internal/dominio"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/aplicacao"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/contrato"
+	"github.com/fsvxavier/books-examples/go-livro-4/capitulo-3/topico-2/encurtador/internal/dominio"
 )
 
 const limiteCorpo = 4 << 10
